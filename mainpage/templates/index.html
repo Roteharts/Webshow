@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="{% static 'index/main.js' %}"></script>
+    <title>
+      {% block title %}
+        Testses
+      {% endblock %}
+    </title>
+  </head>
+  <body>
+    <div id="content">
+      {% block content %}
+      {% endblock %}
+    </div>
+  </body>
+</html>
