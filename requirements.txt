@@ -1,0 +1,5 @@
+numpy
+django
+pandas
+django-create-react-app
+
